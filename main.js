@@ -22,6 +22,6 @@ elementoverde.click(function() {
 });
 var count = 0;
 elementorosso.click(function() {
-  punteggio++;
+  count++;
   $("#counter2").html("Hai selezionato " + punteggio + ' quadrati rossi');
 });
