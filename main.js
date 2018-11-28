@@ -16,12 +16,13 @@ elementorosso.click(function(){
 });
 
 var punteggio = 0;
+var count = 0;
 elementoverde.click(function() {
   punteggio++;
-  $("#counter").html("Hai selezionato " + punteggio + ' quadrati verdi');
+  $("#counter").html("Hai scoperto " + punteggio + ' quadrati verdi');
 });
-var count = 0;
+
 elementorosso.click(function() {
   count++;
-  $("#counter2").html("Hai selezionato " + punteggio + ' quadrati rossi');
+  $("#counter2").html("Hai scoperto " + count + ' quadrati rossi');
 });
